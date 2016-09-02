@@ -1,5 +1,7 @@
-package foo
+package main
 
-func Foo() string {
-	return "hello world"
+import "log"
+
+func main() {
+	log.Println("hello world")
 }
